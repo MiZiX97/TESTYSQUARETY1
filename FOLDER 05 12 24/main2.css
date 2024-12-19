@@ -1,0 +1,44 @@
+*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+
+}
+.img-box{
+	column-count: 4;
+	column-gap: 3px;
+
+
+}
+.img{
+	max-width: 100%;
+	display: block;
+	transition: all 1s ease-out;
+	opacity: 0.5;
+	filter: blur(1.5px);
+	filter: grayscale(50%);
+
+
+}
+.img + .img{
+	margin: 3px;
+
+
+
+}
+.img:hover{
+	opacity: 1;
+	filter: blur(0px);
+
+
+}
+/*.img{
+	transition: all 0.5 ease;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2)
+
+}
+.img:hover{
+		transform: rotate(3deg) scale(1.07);
+		box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4)
+
+}*/
