@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pictuare</title>
+	<style>
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.first-container{
+	width: 700px;
+	height: 700px;
+	background-image: url(https://i.pinimg.com/736x/de/20/5f/de205fc05f01a4bbad6b74fd4a341cc6.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	border: 2px solid grey;
+	background-size: contain; /*cover коментарий не начто не влияет*/
+	background: url(https://i.pinimg.com/736x/de/20/5f/de205fc05f01a4bbad6b74fd4a341cc6.jpg) no-repeat contain;
+}
+body{
+	background: url(Patern2.png);
+
+
+}
+.yandex{
+display: block;
+font-size: 32px;
+margin: 40px;
+}
+.yandex:visited{
+	color: green;
+
+
+}
+.yandex:active{
+	color: darkgrey;
+
+
+}
+button{
+	border: none;
+	display: block;
+	padding: 12px;
+	margin: 50px auto;
+	background-color: black;
+	border-radius: 16px;
+
+
+
+
+}
+.button-a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 32px;
+
+
+}
+button:hover{
+	background-color: pink;
+	border: 2px solid black;
+
+}
+button:hover > .button-a{
+	color: black;
+
+}
+.filter-div{
+	width: 300px;
+	height: 300px;
+	background-image: url(https://avatars.mds.yandex.net/get-mpic/1669769/img_id7571903053230560591.jpeg/orig);
+	background-size: cover;
+	transition: 0.3s;
+}
+.filter-div:hover{
+	filter: blur(2px);
+
+}
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="first-container"></div>
+
+<a href="http://yandex.ru" class="yandex">Яндекс</a>
+<button> <a href="http://yandex.ru" class="button-a">HELLO</a></button>
+
+<div class="filter-div"></div>
+	
+</body>
+</html>
